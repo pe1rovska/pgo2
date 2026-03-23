@@ -4,7 +4,6 @@ public class Reader {
     private String cardNumber;
     private int borrowedCount;
 
-    // Конструктор
     public Reader(String firstName, String lastName, String cardNumber) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -12,7 +11,6 @@ public class Reader {
         this.borrowedCount = 0;
     }
 
-    // Методы
     public void printData() {
         System.out.println("Reader: " + firstName + " " + lastName + " (Card: " + cardNumber + ") - Books borrowed: " + borrowedCount);
     }
